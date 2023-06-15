@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowUmdGlobalAccess": true,
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "stripInternal": true,
+        "strict": true,
+        "outDir": "./dist/",
+        "jsx": "react-jsx",
+        "types": ["./src/types.d.ts"]
+    },
+    "exclude": [
+        "./dist/**/*.ts",
+        "./node_modules"
+    ]
+}
